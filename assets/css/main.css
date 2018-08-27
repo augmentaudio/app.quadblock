@@ -39,10 +39,12 @@ a {
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
+  color: white;
 }
 
 a:hover {
   text-decoration: none;
+  color: grey;
 }
 
 a a:focus {
@@ -234,10 +236,16 @@ a.back-to-top i {
 a.back-to-top:hover, a.back-to-top:focus {
   text-decoration: none;
 }
-
+/* JP custom  */
 .padding {
   padding: 25px;
 }
+
+.h5 a:visited {
+  color:white;
+}
+
+
 
 /* Preloader */
 #preloader {
