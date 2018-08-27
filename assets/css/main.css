@@ -31,7 +31,7 @@ body {
 h1, h2, h3, h4 {
   font-size: 36px;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Slabo', sans-serif;
 }
 
 a {
@@ -235,6 +235,10 @@ a.back-to-top:hover, a.back-to-top:focus {
   text-decoration: none;
 }
 
+.padding {
+  padding: 25px;
+}
+
 /* Preloader */
 #preloader {
   position: fixed;
@@ -320,6 +324,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .navbar-brand {
   position: relative;
+  left:0px;
+  top:0px;
   padding: 0px;
 }
 
@@ -587,8 +593,6 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .intro .heading-count h2 {
   font-size: 80px;
-  margin-bottom: 10px;
-  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .intro .target-scroll {
@@ -690,7 +694,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .time-entry span {
   font-size: 45px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Slabo', sans-serif;
   line-height: 45px;
   font-weight: 700;
   display: block;
