@@ -31,7 +31,11 @@
     /* ==========================================================================
     countdown timer
     ========================================================================== */
+<<<<<<< HEAD
      jQuery('#clock').countdown('2019/01/01',function(event){
+=======
+     jQuery('#clock').countdown('2018/12/12',function(event){
+>>>>>>> b67b66609c79e2083f59d907f47f37e71b17d8a1
       var $this=jQuery(this).html(event.strftime(''
       +'<div class="time-entry days"><span>%-D</span> Days</div> '
       +'<div class="time-entry hours"><span>%H</span> Hours</div> '
